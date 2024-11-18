@@ -1,0 +1,41 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, rgba(1,1,11,1) 0%, rgba(8,23,59,1) 0%, rgba(59,37,66,1) 48%, rgba(18,8,4,0.927608543417367) 95%);
+}
+.cadre {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.barre {
+    font-size: 90px;
+    font-weight: bold;
+    position: relative;
+    top : -15px
+}
+.textG {
+    display: flex;
+    justify-content: end;
+}
+.textG, .textD
+{
+    height: 100px;
+    width: 500px;
+    font-size: 75px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.p1, .p2, .barre {
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25);
+   
+}
