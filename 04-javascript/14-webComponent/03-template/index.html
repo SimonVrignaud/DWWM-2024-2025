@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template et Slot</title>
+    <script type="module" src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <super-card></super-card>
+    <super-card>
+        <span slot="title">Super Titre</span>
+        <p slot="text">
+            <strong>Lorem ipsum dolor sit amet.</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatem, voluptas nemo ratione error quibusdam ipsum labore voluptate. Iusto molestiae temporibus velit nam. Autem perferendis vitae illum praesentium et ab.
+        </p>
+        <span slot="btn">Super produit !</span>
+    </super-card>
+
+    <!-- exemple sans shadow dom -->
+    <template id="blog">
+        <article>
+            <div>
+                <h2>title</h2>
+                <p>text</p>
+                <a href="src">src</a>
+            </div>
+        </article>
+    </template>
+    <!-- exemple avec shadow DOM -->
+    <template id="card">
+        <style>
+            div{
+                display: inline-block;
+                width: 25vw;
+                border: 2px solid black;
+                border-radius: 5px;
+                box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+                padding: 1rem;
+            }
+            h1{
+                margin-top: 0;
+            }
+            button{
+                text-align: center;
+                background-color:lightgreen;
+            }
+        </style>
+        <div>
+            <h1><slot name="title">titre</slot></h1>
+            <p><slot name="text">text</slot></p>
+            <button><slot name="btn">bouton</slot></button>
+        </div>
+    </template>
+</body>
+</html>
