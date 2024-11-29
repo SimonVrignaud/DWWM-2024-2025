@@ -8,6 +8,9 @@
     "files": [
         "src/01-install.ts",
         "src/02-syntaxe.ts",
-        "src/03-narrowing.ts"
+        "src/03-narrowing.ts",
+        "src/04-alias.ts",
+        "src/05-classes.ts",
+        "src/06-interfaces.ts"
     ]
 }
