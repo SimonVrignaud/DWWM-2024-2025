@@ -5,4 +5,5 @@ COPY . /var/www/html
 # RUN apt update && apt upgrade && apt install -y libfreetype6-dev
 RUN apt update && apt upgrade \
 && apt install -y libfreetype6-dev
+RUN docker-php-ext-install pdo_mysql
 ENV MA_SUPER_VARIABLE=truc
