@@ -5,8 +5,7 @@
 - Groupe 1: Louis, Theo, Julien, Simon
 - Groupe 2: Yohan, Aurélien, Sofiane
 - Groupe 3: Ban, Shehrazad, Ad nam, Malika
-- groupe 4: Samir
-- Ryan?
+- groupe 4: Samir, Ryan
 
 ## Projets
 
