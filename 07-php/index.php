@@ -9,7 +9,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./01-syntaxe/01-variable.php">Variables</a>
                 </li>
-                <!-- <li>
+                <li>
                     <a href="./01-syntaxe/02-condition.php">Conditions</a>
                 </li>
                 <li>
@@ -33,6 +33,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./01-syntaxe/09-a-header.php">header</a>
                 </li>
+                <!--
                 <li>
                     <a href="./01-syntaxe/10-a-poo.php">POO part 1</a>
                 </li>
@@ -44,7 +45,7 @@ require "./ressources/template/_header.php";
                 </li> -->
             </ol>
         </li>
-        <!-- <li>
+      <li>
             <h3>02 - Formulaire :</h3>
             <ol>
                 <li>
@@ -53,7 +54,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./02-form/02-post.php">POST</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="./02-form/03-file.php">FILE</a>
                 </li>
                 <li>
@@ -67,9 +68,10 @@ require "./ressources/template/_header.php";
                 </li>
                 <li>
                     <a href="./02-form/07-mail.php">Mailer</a>
-                </li>
+                </li> -->
             </ol>
         </li>
+          <!-- 
         <li>
             <h3>03 - CRUD :</h3>
             <ol>

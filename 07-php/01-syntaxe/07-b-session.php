@@ -20,8 +20,6 @@ session_start([
     // la durée de vie du cookie en seconde, par défaut 0;
     'cookie_lifetime' => 30
 ]);
-$title = " Session page 2";
-require("../ressources/template/_header.php");
 var_dump($_SESSION);
 echo "<br>";
 /* attention cette durée de vie n'est pas extrèmement précise, le navigateur ne vérifie pas à chaque
@@ -67,6 +65,9 @@ $_SESSION["legume"] = "carotte";
 // regardons à nouveau les cookies et nous verrons un second cookie avec un nouvel identifiant.
 /* il est rare d'utiliser 2 sessions sur un même projet, renommer une session sera plus utilisé 
 si on a plusieurs projets tournant sur un même HOST, pour les différenciers. */
+
+$title = " Session page 2";
+require("../ressources/template/_header.php");
 ?>
 <hr>
 <a href="./07-a-session.php">Page 1</a>

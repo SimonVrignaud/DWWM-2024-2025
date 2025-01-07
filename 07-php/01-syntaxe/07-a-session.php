@@ -1,6 +1,4 @@
 <?php 
-$title = " Session page 1";
-require("../ressources/template/_header.php");
 
 // Pour commencer à utiliser les sessions, il faudra avant tout lancer la fonction suivante.
 session_start();
@@ -28,6 +26,8 @@ $_SESSION["food"] = "Pizza";
 $_SESSION["age"] = "54";
 $_SESSION["username"] = "Maurice";
 // Allons maintenant à la page 2.
+$title = " Session page 1";
+require("../ressources/template/_header.php");
 ?>
 <hr>
 <a href="./07-b-session.php">Page 2</a>
