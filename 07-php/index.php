@@ -54,7 +54,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./02-form/02-post.php">POST</a>
                 </li>
-                <!-- <li>
+                <li>
                     <a href="./02-form/03-file.php">FILE</a>
                 </li>
                 <li>
@@ -63,7 +63,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./02-form/05-deconnexion.php">Déconnexion</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="./02-form/06-security.php">Sécurité</a>
                 </li>
                 <li>

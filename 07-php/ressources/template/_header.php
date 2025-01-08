@@ -1,3 +1,4 @@
+<?php if(session_status() === PHP_SESSION_NONE)session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -17,6 +18,7 @@
 <body>
     <header>
         <h1><?php echo $title??"Cours PHP" ?></h1>
+        <span><?= $_SESSION["username"]??"" ?></span>
     </header>
     <!-- On ouvre le body ici mais on ne le ferme pas, il sera fermé
     dans le footer. -->
