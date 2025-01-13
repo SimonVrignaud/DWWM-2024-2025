@@ -63,15 +63,14 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./02-form/05-deconnexion.php">Déconnexion</a>
                 </li>
-                <!-- <li>
+                <li>
                     <a href="./02-form/06-security.php">Sécurité</a>
                 </li>
                 <li>
                     <a href="./02-form/07-mail.php">Mailer</a>
-                </li> -->
+                </li>
             </ol>
-        </li>
-          <!-- 
+        </li> 
         <li>
             <h3>03 - CRUD :</h3>
             <ol>
@@ -81,7 +80,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./03-crud/01-create.php">Inscription</a>
                 </li>
-                <li>
+                <!-- <li>
                     <h4>Exercice :</h4>
                     <ul>
                         <li>
@@ -91,9 +90,10 @@ require "./ressources/template/_header.php";
                             <a href="./03-crud/exercice/deconnexion.php">déconnexion</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
             </ol>
         </li>
+        <!--
         <li>
             <h3>04 - ROUTER :</h3>
             <ol>
