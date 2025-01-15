@@ -165,6 +165,9 @@ if($_SERVER['REQUEST_METHOD']==='POST' && isset($_POST['inscription']))
         $sql->bindParam(2, $password, PDO::PARAM_STR);
         $sql->bindParam(3, $email, PDO::PARAM_STR);
         $sql->execute();
+
+        $_SESSION["flash"] = "Inscription prise en compte, veuillez vous connecter";
+
         /* 
             Puis une fois inscrit, on redirige notre utilisateur 
             vers une autre page. souvent une page de connexion ou d'accueil.

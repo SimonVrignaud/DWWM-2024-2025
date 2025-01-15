@@ -1,4 +1,11 @@
-<?php if(session_status() === PHP_SESSION_NONE)session_start(); ?>
+<?php if(session_status() === PHP_SESSION_NONE)session_start(); 
+
+if(isset($_SESSION["flash"]))
+{
+    $flash = $_SESSION["flash"];
+    unset($_SESSION["flash"]);
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -23,3 +30,8 @@
     <!-- On ouvre le body ici mais on ne le ferme pas, il sera fermé
     dans le footer. -->
     <main class="<?php echo $mainClass??"" ?>">
+        <?php if(isset($flash)):?>
+            <div class="flash">
+                <p><?= $flash ?></p>
+            </div>
+        <?php endif;?>
