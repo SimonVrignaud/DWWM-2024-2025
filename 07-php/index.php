@@ -80,17 +80,17 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./03-crud/01-create.php">Inscription</a>
                 </li>
-                <!-- <li>
+                <li>
                     <h4>Exercice :</h4>
                     <ul>
                         <li>
-                            <a href="./03-crud/exercice/connexion.php">connexion</a>
+                            <a href="./03-crud/exercice/formateur/connexion.php">connexion</a>
                         </li>
                         <li>
-                            <a href="./03-crud/exercice/deconnexion.php">déconnexion</a>
+                            <a href="./03-crud/exercice/formateur/deconnexion.php">déconnexion</a>
                         </li>
                     </ul>
-                </li> -->
+                </li>
             </ol>
         </li>
         <!--

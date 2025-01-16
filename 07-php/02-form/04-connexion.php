@@ -31,7 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["login"])){
     if(empty($_POST["password"]))
         $error["password"] = "Veuillez entrer un password";
     else
-        $password = trim($_POST["password"]);
+        $pass = trim($_POST["password"]);
     
     if(empty($error)){
         /* 

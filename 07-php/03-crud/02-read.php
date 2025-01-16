@@ -32,6 +32,7 @@ require("../ressources/template/_header.php");
                 <td><?= $user['idUser'] ?></td>
                 <td><?= $user['username'] ?></td>
                 <td>
+                    <a href="">Voir</a> |
                     <!-- Est ce que l'id de l'utilisateur connecté existe et est-il le même que celui de la rangée -->
                     <?php if(isset($_SESSION["idUser"]) && $_SESSION["idUser"] == $user["idUser"]):?>
                         <a href="03-update.php?id=<?= $user['idUser'] ?>">Modifier</a> |
