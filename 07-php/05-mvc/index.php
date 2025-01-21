@@ -10,9 +10,11 @@ $url = trim($url, "/");
 
 if(array_key_exists($url, ROUTES))
 {
-    require "pages/".ROUTES[$url];
+    require "./controller/".ROUTES[$url]["controller"];
+    ROUTES[$url]["fonction"]();
+    // readUsers()
 }
 else
 {
-    require "pages/404.php";
+    require "view/404.php";
 }

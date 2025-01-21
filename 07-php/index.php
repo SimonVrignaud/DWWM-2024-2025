@@ -93,7 +93,6 @@ require "./ressources/template/_header.php";
                 </li>
             </ol>
         </li>
-        <!--
         <li>
             <h3>04 - ROUTER :</h3>
             <ol>
@@ -103,7 +102,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./04-router/p2">Page 2</a>
                 </li>
-                <li>
+                <!-- <li>
                     <h4>Exercice :</h4>
                     <ul>
                         <li>
@@ -113,7 +112,7 @@ require "./ressources/template/_header.php";
                             <a href="./04-router/exercice/p2">page 2</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
             </ol>
         </li>
         <li>
@@ -125,7 +124,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./05-mvc/inscription">Inscription</a>
                 </li>
-                <li>
+                <!-- <li>
                     <h4>Exercice :</h4>
                     <ul>
                         <li>
@@ -135,9 +134,10 @@ require "./ressources/template/_header.php";
                         <a href="./05-mvc/deconnexion">Déconnexion</a>
                     </li>
                     </ul>
-                </li>
+                </li> -->
             </ol>
         </li>
+        <!--
         <li>
             <h3>06 - POO :</h3>
             <ol>
