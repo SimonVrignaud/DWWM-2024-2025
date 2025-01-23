@@ -23,7 +23,7 @@ require("../ressources/template/_header.php");
                 <td><?= $user['idUser'] ?></td>
                 <td><?= $user['username'] ?></td>
                 <td>
-                    <a href="/05-mvc/blog?id=<?= $user['idUser'] ?>">Voir</a> |
+                    <a href="/05-mvc/message/list?id=<?= $user['idUser'] ?>">Voir</a> |
                     <!-- Est ce que l'id de l'utilisateur connecté existe et est-il le même que celui de la rangée -->
                     <?php if(isset($_SESSION["idUser"]) && $_SESSION["idUser"] == $user["idUser"]):?>
                         <a href="/05-mvc/user/update?id=<?= $user['idUser'] ?>">Modifier</a> |
