@@ -1,0 +1,6 @@
+# J'active l'outil de réécriture d'url
+RewriteEngine On
+# J'ajoute une condition indiquant que l'URI doit être différent d'une des extensions suivantes
+RewriteCond %{REQUEST_URI} !(\.png|\.jpg|\.jpeg|\.svg|\.ico|\.css|\.js)$
+# J'indique de changer tout l'url (sauf paramètre get) par "index.php"
+RewriteRule (.*) index.php [QSA,L]
