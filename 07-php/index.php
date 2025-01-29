@@ -33,7 +33,6 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./01-syntaxe/09-a-header.php">header</a>
                 </li>
-                <!--
                 <li>
                     <a href="./01-syntaxe/10-a-poo.php">POO part 1</a>
                 </li>
@@ -42,7 +41,7 @@ require "./ressources/template/_header.php";
                 </li>
                 <li>
                     <a href="./01-syntaxe/10-c-poo.php">POO part 3</a>
-                </li> -->
+                </li>
             </ol>
         </li>
       <li>
@@ -124,7 +123,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./05-mvc/inscription">Inscription</a>
                 </li>
-                <!-- <li>
+                <li>
                     <h4>Exercice :</h4>
                     <ul>
                         <li>
@@ -134,10 +133,9 @@ require "./ressources/template/_header.php";
                         <a href="./05-mvc/deconnexion">Déconnexion</a>
                     </li>
                     </ul>
-                </li> -->
+                </li>
             </ol>
         </li>
-        <!--
         <li>
             <h3>06 - POO :</h3>
             <ol>
@@ -147,7 +145,7 @@ require "./ressources/template/_header.php";
                 <li>
                     <a href="./06-poo/inscription">Inscription</a>
                 </li>
-                <li>
+                <!-- <li>
                     <h4>Exercice :</h4>
                     <ul>
                         <li>
@@ -157,9 +155,9 @@ require "./ressources/template/_header.php";
                             <a href="./06-poo/deconnexion">Déconnexion</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
             </ol>
-        </li> -->
+        </li> 
     </ol>
 <?php 
 require "./ressources/template/_footer.php";
